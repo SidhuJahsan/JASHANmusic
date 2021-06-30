@@ -82,7 +82,7 @@ export default class PlayScreen extends React.Component {
                         {this.state.lyrics}
                     </div>
                     <div className="footer">
-                        <h1 className="playlogo">MUSICDER</h1> <br />
+                        <h1 className="playlogo">JASHANmusic</h1> <br />
                         <a className="atextdec" href={`https://www.instagram.com/sidhujashanjot/`}>
                             <p className="playparagone" >Contact us</p>
                         </a><br />

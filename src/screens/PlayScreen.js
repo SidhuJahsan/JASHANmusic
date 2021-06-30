@@ -36,9 +36,9 @@ export default class PlayScreen extends React.Component {
                 var song = res.data;
                 this.setState({ song });
                 if (song.result === "false") {
-                    document.title = `Error | Musicder`
+                    document.title = `Error | JASHANmusic`
                 } else {
-                    document.title = `${song.song} by ${song.singers} | Musicder`
+                    document.title = `${song.song} by ${song.singers} | JASHANmusic`
                 }
             })
     }
@@ -63,7 +63,7 @@ export default class PlayScreen extends React.Component {
                     <div className="playhead">
                         <h1 className="playheadplay">Play</h1>
                         <Link to="../">
-                            <img alt="Musicder" src="../img/t-logo.svg" className="playlogobtn" width="60" height="60" />
+                            <img alt="JASHANmusic" src="../img/t-logo.svg" className="playlogobtn" width="60" height="60" />
                         </Link>
                     </div>
                     <div className="playcontent"><br /><br />

@@ -17,10 +17,10 @@ export default class PlayScreen extends React.Component {
                 var song = res.data;
 
                 if (song.result === "false") {
-                    document.title = `Error | Musicder`
+                    document.title = `Error | JASHANmusic`
                     this.setState({ song })
                 } else {
-                    document.title = `Download ${song.song} | Musicder`
+                    document.title = `Download ${song.song} | JASHANmusic`
                     this.setState({
                         song,
                         qOne: song.other_qualities[0].url,
